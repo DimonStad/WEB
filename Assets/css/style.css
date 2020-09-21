@@ -1,0 +1,196 @@
+body {
+	margin: 0;
+	font-family: 'Jura', sans-serif;
+
+	font-size: 24px;
+	line-height: 1.6;
+	color: #333;
+}
+
+*,
+*:before,
+*:after{
+	box-sizing: border-box;
+}
+
+.intro {
+width: 100%;
+height: 686px;
+margin: 0 auto;
+
+background: #F9FAE6;
+}
+
+.Strip{
+position: absolute;
+width: 100%;
+height: 94px;
+left: 0px;
+top: 0px;
+
+background: #C4C4C4;
+}
+
+.nav_link_1{
+position: absolute;
+width: 360px;
+height: 50px;
+left: 551px;
+top: 23px;
+
+font-family: Jura;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 43px;
+text-align: center;
+}
+
+.nav_link_2{
+position: absolute;
+width: 411px;
+height: 52px;
+left: 961px;
+top: 21px;
+
+font-family: Jura;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 43px;
+text-align: center;
+}
+
+.name{
+position: absolute;
+width: 466px;
+height: 94px;
+left: 311px;
+top: 118px;
+
+font-family: Jura;
+font-style: normal;
+font-weight: normal;
+font-size: 48px;
+line-height: 76px;
+}
+
+.info_intro{
+position: absolute;
+width: 466px;
+height: 118px;
+left: 311px;
+top: 357px;
+
+font-family: Jura;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 28px;
+}
+
+.Img1{
+position: absolute;
+width: 381px;
+height: 514px;
+left: 1118px;
+top: 118px;
+
+background: url(2yAxcvFvqxw.jpg);
+border: 1px solid #000000;
+box-sizing: border-box;
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.quote{
+position: absolute;
+width: 388px;
+height: 29px;
+left: 311px;
+top: 594px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 23px;
+}
+
+.about_me{
+position: relative;
+margin-top: -40px;
+width: 1922px;
+height: 406px;
+
+background: #DFF8D3;
+}
+
+.contacts{
+
+position: relative;
+margin-top: -40px;
+width: 1922px;
+height: 278px;
+
+background: #FFFFFF;
+}
+
+.info_contacts{
+position: absolute;
+width: 246px;
+height: 66px;
+left: 846px;
+top: 186px;
+
+font-family: Jura;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 21px;
+text-align: center;
+}
+
+.info_about{
+position: absolute;
+width: 451px;
+height: 475px;
+left: 734px;
+top: 90px;
+
+font-family: Jura;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 28px;
+text-align: center;
+}
+
+.vk{
+position: absolute;
+width: 267px;
+height: 50px;
+left: -200px;
+top: -70px;
+
+font-family: Jura;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 28px;
+text-align: center;
+}
+
+.inst{
+position: absolute;
+width: 267px;
+height: 50px;
+left: 200px;
+top: -70px;
+
+font-family: Jura;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 28px;
+text-align: center;
+}
