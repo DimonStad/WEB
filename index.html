@@ -5,6 +5,31 @@
 	 <meta charset="UTF-8">
 	 <link rel="stylesheet" type="text/css" href="C:\Users\Пользователь\Desktop\WebProject\Assets\css\style.css">
 	 <link href="https://fonts.googleapis.com/css2?family=Jura:wght@515&display=swap" rel="stylesheet">
+	 <style>
+      #zatemnenie {
+        background: rgba(102, 102, 102, 0.5);
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: none;
+      }
+      
+      #zatemnenie:target {display: block;}
+      .close {
+        display: inline-block;
+        border: 1px solid #0000cc;
+        color: #0000cc;
+        padding: 0 12px;
+        margin: 10px;
+        text-decoration: none;
+        background: #f2f2f2;
+        font-size: 14pt;
+        cursor:pointer;
+      }
+      .close:hover {background: #e6e6ff;}
+    </style>
 </head>
 <body>
 
@@ -19,7 +44,7 @@
 	</div>
 
 	<div class="Img1">
-		<img src="C:\Users\Пользователь\Desktop\WebProject\Assets\Img\intro.jpg"width="381px" height="514px">
+		<img src="C:\Users\Пользователь\Desktop\WebProject\Assets\Img\intro.jpg"width="381px" height="514px" class="minimized" alt="клик для увеличения"/>
 	</div>
 
 	<div class="name">
@@ -27,7 +52,7 @@
 	</div>
 	<div class="info_intro">
 		<h1>Университет ИТМО</h1>
-		<h1>19 лет</h1>
+		<h1>20 лет</h1>
 		<h1>Санкт-Петербург</h1>
 	</div>
 	<div class="quote">
@@ -69,7 +94,17 @@
 		<h1>Почта: stadnit@mail.ru</h1>
 		
 	</div>
+	<div id="zatemnenie">
+      <div class="okno">
+       1XBET<br>
+        <a href="#" class="close">Закрыть окно</a>
+      </div>
+    </div>
+     
+    <a href="#zatemnenie">ТЫК</a>
 </section>
-	
+	<script src = "C:\Users\Пользователь\Desktop\WebProject\Assets\JS\Array.js"></script>
+	<script src = "C:\Users\Пользователь\Desktop\WebProject\Assets\JS\jquery-3.1.1.min.js"></script>
+	<script src = "C:\Users\Пользователь\Desktop\WebProject\Assets\JS\Galery.js"></script>
 </body>
 </html>
